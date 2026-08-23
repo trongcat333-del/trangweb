@@ -1,1 +1,193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trang web giới thiệu dự án cá nhân">
+    <title>My Portfolio - Web Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">MyPortfolio</h1>
+
+            <ul class="menu">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY WEBSITE</p>
+
+            <h2>Xin chào, tôi là <span>Web Developer</span></h2>
+
+            <p>
+                Đây là website portfolio được xây dựng bằng HTML và CSS,
+                nhằm giới thiệu bản thân, kỹ năng và các dự án cá nhân.
+            </p>
+
+            <a href="#projects" class="btn">Xem dự án</a>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <h2 class="section-title">Giới thiệu</h2>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Về dự án</h3>
+
+                <p>
+                    Website này được xây dựng nhằm áp dụng những kiến thức
+                    về thiết kế và phát triển giao diện web.
+                </p>
+
+                <p>
+                    Tôi sử dụng HTML để xây dựng cấu trúc trang và CSS để
+                    tạo giao diện, bố cục, màu sắc và hiệu ứng tương tác.
+                </p>
+            </div>
+
+            <div class="info-box">
+                <h3>Thông tin</h3>
+                <p><strong>Ngôn ngữ:</strong> HTML, CSS</p>
+                <p><strong>Thiết kế:</strong> Responsive</p>
+                <p><strong>Trình duyệt:</strong> Chrome, Edge, Firefox</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <h2 class="section-title">Dự án của tôi</h2>
+
+        <div class="project-container">
+
+            <div class="card">
+                <div class="card-image">01</div>
+
+                <div class="card-content">
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        Website giới thiệu cá nhân với giao diện hiện đại
+                        và responsive trên nhiều thiết bị.
+                    </p>
+
+                    <a href="#" class="card-btn">Xem thêm</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">02</div>
+
+                <div class="card-content">
+                    <h3>Product Website</h3>
+
+                    <p>
+                        Trang web giới thiệu sản phẩm với bố cục rõ ràng,
+                        dễ sử dụng và thân thiện với người dùng.
+                    </p>
+
+                    <a href="#" class="card-btn">Xem thêm</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">03</div>
+
+                <div class="card-content">
+                    <h3>Landing Page</h3>
+
+                    <p>
+                        Trang landing page tập trung vào nội dung,
+                        hình ảnh và khả năng tương tác.
+                    </p>
+
+                    <a href="#" class="card-btn">Xem thêm</a>
+                </div>
+            </div>
+
+        </div>
+  
+    <section id="skills" class="section">
+        <h2 class="section-title">Kỹ năng</h2>
+
+        <div class="skills">
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar html"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span>CSS</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar css"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span>Responsive Design</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar responsive"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2 class="section-title">Liên hệ</h2>
+
+        <form class="contact-form">
+
+            <input
+                type="text"
+                placeholder="Họ và tên"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Email"
+                required
+            >
+
+            <textarea
+                rows="5"
+                placeholder="Nội dung tin nhắn"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn">
+                Gửi tin nhắn
+            </button>
+
+        </form>
+    </section>
+    <footer>
+        <p>© 2026 MyPortfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
